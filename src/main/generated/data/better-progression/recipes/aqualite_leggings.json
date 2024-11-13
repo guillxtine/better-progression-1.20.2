@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "better-progression:aqualite_ingot"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "C C",
+    "C C"
+  ],
+  "result": {
+    "item": "better-progression:aqualite_leggings"
+  },
+  "show_notification": true
+}

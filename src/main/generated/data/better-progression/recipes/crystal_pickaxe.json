@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "better-progression:crystal_shard"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "CCC",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "better-progression:crystal_pickaxe"
+  },
+  "show_notification": true
+}

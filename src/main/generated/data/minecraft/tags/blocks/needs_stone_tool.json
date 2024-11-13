@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "better-progression:permafrost",
+    "better-progression:permafrost_bricks",
+    "better-progression:permafrost_brick_stairs",
+    "better-progression:permafrost_brick_slab",
+    "better-progression:permafrost_brick_wall",
+    "better-progression:aqualite_ore",
+    "better-progression:deepslate_aqualite_ore",
+    "better-progression:aqualite_block",
+    "better-progression:raw_aqualite_block"
+  ]
+}

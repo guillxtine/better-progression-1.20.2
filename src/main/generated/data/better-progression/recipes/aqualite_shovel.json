@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "better-progression:aqualite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "C",
+    "S",
+    "S"
+  ],
+  "result": {
+    "item": "better-progression:aqualite_shovel"
+  },
+  "show_notification": true
+}

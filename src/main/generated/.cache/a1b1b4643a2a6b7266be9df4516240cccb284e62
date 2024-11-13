@@ -1,0 +1,8 @@
+// 1.20.2	2024-11-12T20:24:40.882717	Better Progression/Tags for minecraft:item
+a17d82056af5073d7678c427fb53bcfafe67bd74 data/minecraft/tags/items/axes.json
+d8530fe00b0142b9f7fbfa90ddf581894dc0ab52 data/minecraft/tags/items/trimmable_armor.json
+7f2594de946ec446232e72c84b4844914cb43c16 data/minecraft/tags/items/shovels.json
+df85fe8db96b1c94abf8c054b1067ddc0284d271 data/minecraft/tags/items/trim_materials.json
+5d074c87a07ab37cfe698ce5eaf84d66a0351638 data/minecraft/tags/items/pickaxes.json
+ff1c6c4e718f0b8f5701224b69611501f5b5f2dc data/minecraft/tags/items/swords.json
+0b2da615bb0b70f34210aff1042d0ffc40eb1cbe data/minecraft/tags/items/hoes.json

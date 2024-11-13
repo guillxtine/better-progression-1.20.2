@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "better-progression:item/crystal_pickaxe"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "aqualite",
+  "ingredient": {
+    "item": "better-progression:raw_aqualite"
+  },
+  "result": "better-progression:aqualite_ingot"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "aqualite",
+  "ingredient": {
+    "item": "better-progression:aqualite_ore"
+  },
+  "result": "better-progression:aqualite_ingot"
+}

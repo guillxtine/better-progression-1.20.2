@@ -1,0 +1,15 @@
+{
+  "asset_name": "crystal",
+  "description": {
+    "color": "#CA94CD",
+    "translate": "trim_material.better-progression.crystal",
+    "with": [
+      "{CRYSTAL=crystal_darker}"
+    ]
+  },
+  "ingredient": "better-progression:crystal_shard",
+  "item_model_index": 1.0,
+  "override_armor_materials": {
+    "crystal": "crystal_darker"
+  }
+}

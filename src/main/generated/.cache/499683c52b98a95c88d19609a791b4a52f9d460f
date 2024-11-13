@@ -1,0 +1,4 @@
+// 1.20.2	2024-11-12T20:24:40.879608	Better Progression/Tags for minecraft:block
+1f33f3be78c325dc6c04671508cf78dcb678c86e data/minecraft/tags/blocks/needs_iron_tool.json
+210f6a3e35117acfa16b4365c880aa55281ca05e data/minecraft/tags/blocks/needs_stone_tool.json
+bd9cb3c7243d10fe197e7e11c34cebf5491fbb83 data/minecraft/tags/blocks/mineable/pickaxe.json

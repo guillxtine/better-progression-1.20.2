@@ -1,0 +1,45 @@
+{
+  "block.better-progression.permafrost": "Permafrost",
+  "block.better-progression.permafrost_bricks": "Permafrost Bricks",
+  "block.better-progression.permafrost_brick_stairs": "Permafrost Brick Stairs",
+  "block.better-progression.permafrost_brick_slab": "Permafrost Brick Slab",
+  "block.better-progression.permafrost_brick_wall": "Permafrost Brick Wall",
+
+  "block.better-progression.crystal_ore": "Crystal Ore",
+  "block.better-progression.deepslate_crystal_ore": "Deepslate Crystal Ore",
+  "block.better-progression.crystal_block": "Crystal Block",
+  "block.better-progression.aqualite_ore": "Aqualite Ore",
+  "block.better-progression.deepslate_aqualite_ore": "Deepslate Aqualite Ore",
+  "block.better-progression.aqualite_block": "Aqualite Block",
+  "block.better-progression.raw_aqualite_block": "Block of Raw Aqualite",
+
+  "item.better-progression.crystal_shard": "Crystal Shard",
+  "item.better-progression.raw_aqualite": "Raw Aqualite",
+  "item.better-progression.aqualite_ingot": "Aqualite Ingot",
+
+  "item.better-progression.crystal_pickaxe": "Crystal Pickaxe",
+  "item.better-progression.crystal_axe": "Crystal Axe",
+  "item.better-progression.crystal_shovel": "Crystal Shovel",
+  "item.better-progression.crystal_sword": "Crystal Sword",
+  "item.better-progression.crystal_hoe": "Crystal Hoe",
+  "item.better-progression.aqualite_pickaxe": "Aqualite Pickaxe",
+  "item.better-progression.aqualite_axe": "Aqualite Axe",
+  "item.better-progression.aqualite_shovel": "Aqualite Shovel",
+  "item.better-progression.aqualite_sword": "Aqualite Sword",
+  "item.better-progression.aqualite_hoe": "Aqualite Hoe",
+
+  "item.better-progression.crystal_helmet": "Crystal Helmet",
+  "item.better-progression.crystal_chestplate": "Crystal Chestplate",
+  "item.better-progression.crystal_leggings": "Crystal Leggings",
+  "item.better-progression.crystal_boots": "Crystal Boots",
+  "item.better-progression.aqualite_helmet": "Aqualite Helmet",
+  "item.better-progression.aqualite_chestplate": "Aqualite Chestplate",
+  "item.better-progression.aqualite_leggings": "Aqualite Leggings",
+  "item.better-progression.aqualite_boots": "Aqualite Boots",
+  "item.better-progression.flower_crown": "Flower Crown",
+
+  "trim_material.better-progression.crystal": "Crystal Material",
+
+  "itemgroup.better_progression_blocks": "Better Progression Blocks",
+  "itemgroup.better_progression_items": "Better Progression Items"
+}

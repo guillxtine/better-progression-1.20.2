@@ -1,0 +1,9 @@
+{
+  "asset_name": "crystal",
+  "description": {
+    "color": "#ca94cd",
+    "translate": "trim_material.better-progression.crystal"
+  },
+  "ingredient": "better-progression:crystal",
+  "item_model_index": 1.1
+}

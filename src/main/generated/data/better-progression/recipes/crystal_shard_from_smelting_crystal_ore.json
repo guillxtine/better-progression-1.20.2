@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "crystal",
+  "ingredient": {
+    "item": "better-progression:crystal_ore"
+  },
+  "result": "better-progression:crystal_shard"
+}

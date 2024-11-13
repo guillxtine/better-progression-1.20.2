@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "better-progression:crystal_helmet",
+    "better-progression:crystal_chestplate",
+    "better-progression:crystal_leggings",
+    "better-progression:crystal_boots",
+    "better-progression:aqualite_helmet",
+    "better-progression:aqualite_chestplate",
+    "better-progression:aqualite_leggings",
+    "better-progression:aqualite_boots"
+  ]
+}
