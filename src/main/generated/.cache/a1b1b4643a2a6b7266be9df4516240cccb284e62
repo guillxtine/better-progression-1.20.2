@@ -1,8 +1,29 @@
-// 1.20.2	2024-11-12T20:24:40.882717	Better Progression/Tags for minecraft:item
-a17d82056af5073d7678c427fb53bcfafe67bd74 data/minecraft/tags/items/axes.json
-d8530fe00b0142b9f7fbfa90ddf581894dc0ab52 data/minecraft/tags/items/trimmable_armor.json
-7f2594de946ec446232e72c84b4844914cb43c16 data/minecraft/tags/items/shovels.json
+// 1.20.2	2024-11-14T01:23:21.527059	Better Progression/Tags for minecraft:item
+6ddf2a4a3562b9b917025cde035e5cb78a450231 data/minecraft/tags/items/doors.json
+4f487292fede49b3fc37e43ccf086cca6d8ecf18 data/minecraft/tags/items/slabs.json
 df85fe8db96b1c94abf8c054b1067ddc0284d271 data/minecraft/tags/items/trim_materials.json
 5d074c87a07ab37cfe698ce5eaf84d66a0351638 data/minecraft/tags/items/pickaxes.json
+6ddf2a4a3562b9b917025cde035e5cb78a450231 data/minecraft/tags/items/wooden_doors.json
+501aa98e1f371591505cd7aba7d9a322aa76b630 data/minecraft/tags/items/wooden_pressure_plates.json
+24f0ce8ab0eab6728b8be5092dfe9d7dfddd9e4e data/minecraft/tags/items/wooden_trapdoors.json
+a17d82056af5073d7678c427fb53bcfafe67bd74 data/minecraft/tags/items/axes.json
+7f2594de946ec446232e72c84b4844914cb43c16 data/minecraft/tags/items/shovels.json
+905a8ea63bc7b9ef95c5b5f140b28afd75b6db4f data/minecraft/tags/items/walls.json
+6e0b777e0fdd4007ee0ef0791f9430418dfea13b data/minecraft/tags/items/chest_boats.json
+317810e6c385a94b7ad15f86c918831dbb8d777a data/minecraft/tags/items/wooden_fences.json
+67d08b4e09187718de36f0e813bc8633616cd0f8 data/minecraft/tags/items/wooden_stairs.json
+54af4d23cb048e0135983b08f8432efd6615be23 data/minecraft/tags/items/wooden_slabs.json
+23d829169a27f1cdfe68afd44c52166fbf94ee13 data/minecraft/tags/items/logs_that_burn.json
+fbcc1c085c87ecaccae0c8067a04268e563b775c data/minecraft/tags/items/stairs.json
+d8530fe00b0142b9f7fbfa90ddf581894dc0ab52 data/minecraft/tags/items/trimmable_armor.json
+7c911f012dc9aaf587744004124547e6f7bcb17c data/minecraft/tags/items/leaves.json
+24f0ce8ab0eab6728b8be5092dfe9d7dfddd9e4e data/minecraft/tags/items/trapdoors.json
 ff1c6c4e718f0b8f5701224b69611501f5b5f2dc data/minecraft/tags/items/swords.json
+93ff45be9e6fa5d358cad240c4ea5c3e6ec0bfa9 data/minecraft/tags/items/boats.json
+317810e6c385a94b7ad15f86c918831dbb8d777a data/minecraft/tags/items/fences.json
+06f66fdc1eb4602d31083170056e90aaac96ef65 data/minecraft/tags/items/buttons.json
 0b2da615bb0b70f34210aff1042d0ffc40eb1cbe data/minecraft/tags/items/hoes.json
+23d829169a27f1cdfe68afd44c52166fbf94ee13 data/better-progression/tags/items/mahogany_logs.json
+06f66fdc1eb4602d31083170056e90aaac96ef65 data/minecraft/tags/items/wooden_buttons.json
+b18d318048a763d26b9175c54054b7b6ab663dee data/minecraft/tags/items/planks.json
+1693d686986355283637f40ac8f9574608e61147 data/minecraft/tags/items/fence_gates.json

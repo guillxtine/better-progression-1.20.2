@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "better-progression:mahogany_planks",
+    "better-progression:mahogany_log",
+    "better-progression:mahogany_wood",
+    "better-progression:stripped_mahogany_log",
+    "better-progression:stripped_mahogany_wood",
+    "better-progression:mahogany_standing_sign",
+    "better-progression:mahogany_wall_sign",
+    "better-progression:mahogany_hanging_sign",
+    "better-progression:mahogany_wall_hanging_sign"
+  ]
+}

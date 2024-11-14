@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "better-progression:mahogany_planks"
+    }
+  ],
+  "result": {
+    "item": "better-progression:mahogany_button"
+  }
+}

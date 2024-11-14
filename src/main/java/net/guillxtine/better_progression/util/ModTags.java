@@ -11,6 +11,7 @@ public class ModTags
 {
     public static class Blocks
     {
+        public static final TagKey<Block> MAHOGANY_LOGS = createTag("mahogany_logs");
 
         private static TagKey<Block> createTag(String name)
         {
@@ -21,6 +22,8 @@ public class ModTags
 
     public static class Items
     {
+        public static final TagKey<Item> MAHOGANY_LOGS = createTag("mahogany_logs");
+
         private static TagKey<Item> createTag(String name)
         {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(BetterProgression.MOD_ID, name));

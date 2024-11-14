@@ -31,6 +31,24 @@ public class ModModelProvider extends FabricModelProvider
         permaBricksPool.stairs(ModBlocks.PERMAFROST_BRICK_STAIRS);
         permaBricksPool.slab(ModBlocks.PERMAFROST_BRICK_SLAB);
         permaBricksPool.wall(ModBlocks.PERMAFROST_BRICK_WALL);
+
+        blockStateModelGenerator.registerLog(ModBlocks.MAHOGANY_LOG).log(ModBlocks.MAHOGANY_LOG).wood(ModBlocks.MAHOGANY_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MAHOGANY_LOG).log(ModBlocks.STRIPPED_MAHOGANY_LOG).wood(ModBlocks.STRIPPED_MAHOGANY_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAHOGANY_LEAVES);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.MAHOGANY_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        BlockStateModelGenerator.BlockTexturePool mahogany_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAHOGANY_PLANKS);
+        mahogany_pool.family(ModBlocks.MAHOGANY_FAMILY);
+
+        mahogany_pool.stairs(ModBlocks.MAHOGANY_STAIRS);
+        mahogany_pool.slab(ModBlocks.MAHOGANY_SLAB);
+        mahogany_pool.button(ModBlocks.MAHOGANY_BUTTON);
+        mahogany_pool.pressurePlate(ModBlocks.MAHOGANY_PRESSURE_PLATE);
+        mahogany_pool.fence(ModBlocks.MAHOGANY_FENCE);
+        mahogany_pool.fenceGate(ModBlocks.MAHOGANY_FENCE_GATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.MAHOGANY_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.MAHOGANY_TRAPDOOR);
     }
 
     @Override
@@ -63,5 +81,10 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.registerArmor((ArmorItem) ModItems.AQUALITE_BOOTS);
 
         itemModelGenerator.register(ModItems.FLOWER_CROWN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.HANGING_MAHOGANY_SIGN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.MAHOGANY_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAHOGANY_CHEST_BOAT, Models.GENERATED);
     }
 }

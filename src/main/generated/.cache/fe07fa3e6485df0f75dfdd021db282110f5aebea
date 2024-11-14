@@ -1,0 +1,7 @@
+// 1.20.2	2024-11-14T01:23:21.526101	Better Progression/World Gen
+3708b187ef079a936f7b5d73fbb5e4afb434ddbd data/better-progression/worldgen/configured_feature/crystal_ore.json
+3570351650ea7e9758cae578029e37543350dd3a data/better-progression/worldgen/placed_feature/crystal_ore_placed.json
+04bf9d9dc7fcee203bce68ffa188807ced5cf6ec data/better-progression/worldgen/placed_feature/mahogany_placed.json
+6a6bc0c41bd7bfc865e6f94b67b4649842178c3f data/better-progression/worldgen/configured_feature/mahogany.json
+524195b7469be72eab92ebb44670f8f9b33f02f5 data/better-progression/worldgen/placed_feature/aqualite_ore_placed.json
+b839fd2012b15bf6b15ddd094ad0658d7a5ae1d8 data/better-progression/worldgen/configured_feature/aqualite_ore.json

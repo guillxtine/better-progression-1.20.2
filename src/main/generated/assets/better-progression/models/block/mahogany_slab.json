@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "better-progression:block/mahogany_planks",
+    "side": "better-progression:block/mahogany_planks",
+    "top": "better-progression:block/mahogany_planks"
+  }
+}

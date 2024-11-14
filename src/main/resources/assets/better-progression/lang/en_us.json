@@ -13,6 +13,29 @@
   "block.better-progression.aqualite_block": "Aqualite Block",
   "block.better-progression.raw_aqualite_block": "Block of Raw Aqualite",
 
+  "block.better-progression.mahogany_log": "Mahogany Log",
+  "block.better-progression.mahogany_wood": "Mahogany Wood",
+  "block.better-progression.stripped_mahogany_log": "Stripped Mahogany Log",
+  "block.better-progression.stripped_mahogany_wood": "Stripped Mahogany Wood",
+  "block.better-progression.mahogany_leaves": "Mahogany Leaves",
+
+  "block.better-progression.mahogany_sapling": "Mahogany Sapling",
+
+  "block.better-progression.mahogany_planks": "Mahogany Planks",
+  "block.better-progression.mahogany_stairs": "Mahogany Stairs",
+  "block.better-progression.mahogany_slab": "Mahogany Slab",
+  "block.better-progression.mahogany_button": "Mahogany Button",
+  "block.better-progression.mahogany_pressure_plate": "Mahogany Pressure Plate",
+  "block.better-progression.mahogany_fence": "Mahogany Fence",
+  "block.better-progression.mahogany_fence_gate": "Mahogany Fence Gate",
+  "block.better-progression.mahogany_door": "Mahogany Door",
+  "block.better-progression.mahogany_trapdoor": "Mahogany Trapdoor",
+
+  "block.better-progression.mahogany_standing_sign": "Mahogany Sign",
+  "block.better-progression.mahogany_wall_sign": "Mahogany Sign",
+  "block.better-progression.mahogany_hanging_sign": "Mahogany Hanging Sign",
+  "block.better-progression.mahogany_wall_hanging_sign": "Mahogany Hanging Sign",
+
   "item.better-progression.crystal_shard": "Crystal Shard",
   "item.better-progression.raw_aqualite": "Raw Aqualite",
   "item.better-progression.aqualite_ingot": "Aqualite Ingot",
@@ -37,6 +60,9 @@
   "item.better-progression.aqualite_leggings": "Aqualite Leggings",
   "item.better-progression.aqualite_boots": "Aqualite Boots",
   "item.better-progression.flower_crown": "Flower Crown",
+
+  "item.better-progression.mahogany_boat": "Mahogany Boat",
+  "item.better-progression.mahogany_chest_boat": "Mahogany Chest Boat",
 
   "trim_material.better-progression.crystal": "Crystal Material",
 

@@ -1,9 +1,12 @@
 package net.guillxtine.better_progression.item;
 
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.guillxtine.better_progression.BetterProgression;
+import net.guillxtine.better_progression.block.ModBlocks;
+import net.guillxtine.better_progression.entity.ModBoats;
 import net.guillxtine.better_progression.item.custom.ModArmorItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -25,7 +28,7 @@ public class ModItems
     public static final Item CRYSTAL_SWORD = registerItem("crystal_sword",
             new SwordItem(ModToolMaterial.CRYSTAL, 2, -2.4f, new FabricItemSettings()));
     public static final Item CRYSTAL_HOE = registerItem("crystal_hoe",
-            new HoeItem(ModToolMaterial.CRYSTAL, -3,-1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.CRYSTAL, -2,-1f, new FabricItemSettings()));
 
     public static final Item CRYSTAL_HELMET = registerItem("crystal_helmet",
             new ModArmorItem(ModArmorMaterials.CRYSTAL, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -37,15 +40,15 @@ public class ModItems
             new ArmorItem(ModArmorMaterials.CRYSTAL, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item AQUALITE_PICKAXE = registerItem("aqualite_pickaxe",
-            new PickaxeItem(ModToolMaterial.AQUALITE, 0, 0f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.AQUALITE, 0, -2.8f, new FabricItemSettings()));
     public static final Item AQUALITE_AXE = registerItem("aqualite_axe",
-            new AxeItem(ModToolMaterial.AQUALITE, 0, 0f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.AQUALITE, 6, -3.2f, new FabricItemSettings()));
     public static final Item AQUALITE_SHOVEL = registerItem("aqualite_shovel",
-            new ShovelItem(ModToolMaterial.AQUALITE, 0, 0f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.AQUALITE, 0, -3f, new FabricItemSettings()));
     public static final Item AQUALITE_SWORD = registerItem("aqualite_sword",
-            new SwordItem(ModToolMaterial.AQUALITE, 0, 0f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.AQUALITE, 2, -2.4f, new FabricItemSettings()));
     public static final Item AQUALITE_HOE = registerItem("aqualite_hoe",
-            new HoeItem(ModToolMaterial.AQUALITE, 0,0f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.AQUALITE, -2,-2f, new FabricItemSettings()));
 
     public static final Item AQUALITE_HELMET = registerItem("aqualite_helmet",
             new ArmorItem(ModArmorMaterials.AQUALITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -58,6 +61,14 @@ public class ModItems
 
     public static final Item FLOWER_CROWN = registerItem("flower_crown",
             new ModArmorItem(ModArmorMaterials.FLOWER_CROWN, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item MAHOGANY_SIGN = registerItem("mahogany_sign",
+            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_MAHOGANY_SIGN, ModBlocks.WALL_MAHOGANY_SIGN));
+    public static final Item HANGING_MAHOGANY_SIGN = registerItem("mahogany_hanging_sign",
+            new HangingSignItem(ModBlocks.HANGING_MAHOGANY_SIGN, ModBlocks.WALL_HANGING_MAHOGANY_SIGN, new FabricItemSettings().maxCount(16)));
+
+    public static final Item MAHOGANY_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MAHOGANY_BOAT_ID, ModBoats.MAHOGANY_BOAT_KEY, false);
+    public static final Item MAHOGANY_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MAHOGANY_CHEST_BOAT_ID, ModBoats.MAHOGANY_BOAT_KEY, true);
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)
     {

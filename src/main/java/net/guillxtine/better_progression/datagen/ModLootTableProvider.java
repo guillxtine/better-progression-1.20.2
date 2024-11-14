@@ -38,6 +38,29 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider
         addDrop(ModBlocks.DEEPSLATE_AQUALITE_ORE, ModItems.RAW_AQUALITE);
         addDrop(ModBlocks.AQUALITE_BLOCK);
         addDrop(ModBlocks.RAW_AQUALITE_BLOCK);
+
+        addDrop(ModBlocks.MAHOGANY_LOG);
+        addDrop(ModBlocks.MAHOGANY_WOOD);
+        addDrop(ModBlocks.STRIPPED_MAHOGANY_LOG);
+        addDrop(ModBlocks.STRIPPED_MAHOGANY_WOOD);
+        addDrop(ModBlocks.MAHOGANY_SAPLING);
+
+        addDrop(ModBlocks.MAHOGANY_PLANKS);
+        addDrop(ModBlocks.MAHOGANY_STAIRS);
+        addDrop(ModBlocks.MAHOGANY_SLAB, slabDrops(ModBlocks.MAHOGANY_SLAB));
+        addDrop(ModBlocks.MAHOGANY_BUTTON);
+        addDrop(ModBlocks.MAHOGANY_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAHOGANY_FENCE);
+        addDrop(ModBlocks.MAHOGANY_FENCE_GATE);
+        addDrop(ModBlocks.MAHOGANY_TRAPDOOR);
+        addDrop(ModBlocks.MAHOGANY_DOOR, doorDrops(ModBlocks.MAHOGANY_DOOR));
+
+        addDrop(ModBlocks.STANDING_MAHOGANY_SIGN);
+        addDrop(ModBlocks.WALL_MAHOGANY_SIGN);
+        addDrop(ModBlocks.HANGING_MAHOGANY_SIGN);
+        addDrop(ModBlocks.WALL_HANGING_MAHOGANY_SIGN);
+
+        addDrop(ModBlocks.MAHOGANY_LEAVES, leavesDrops(ModBlocks.MAHOGANY_LEAVES, ModBlocks.MAHOGANY_SAPLING, 0.005f));
     }
 
     public LootTable.Builder crystalOreDrops(Block drop, Item item) {

@@ -9,7 +9,7 @@ public enum ModToolMaterial implements ToolMaterial
 {
     CRYSTAL(3, 301, 8f, 3f, 22,
             () -> Ingredient.ofItems(ModItems.CRYSTAL_SHARD)),
-    AQUALITE(2, 211, 5f, 2.5f, 9,
+    AQUALITE(2, 211, 5f, 2f, 9,
             () -> Ingredient.ofItems(ModItems.AQUALITE_INGOT));
 
     private final int miningLevel;

@@ -23,6 +23,12 @@
 		],
 		"fabric-datagen": [
 			"net.guillxtine.better_progression.BetterProgressionDataGenerator"
+		],
+		"rei_client": [
+			"net.guillxtine.better_progression.compat.BetterProgressionREIClientPlugin"
+		],
+		"terrablender": [
+			"net.guillxtine.better_progression.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [

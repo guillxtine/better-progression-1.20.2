@@ -28,6 +28,21 @@ public class ModItemGroups
                                 entries.add(ModBlocks.DEEPSLATE_AQUALITE_ORE);
                                 entries.add(ModBlocks.AQUALITE_BLOCK);
                                 entries.add(ModBlocks.RAW_AQUALITE_BLOCK);
+                                entries.add(ModBlocks.MAHOGANY_SAPLING);
+                                entries.add(ModBlocks.MAHOGANY_LOG);
+                                entries.add(ModBlocks.MAHOGANY_WOOD);
+                                entries.add(ModBlocks.STRIPPED_MAHOGANY_LOG);
+                                entries.add(ModBlocks.STRIPPED_MAHOGANY_WOOD);
+                                entries.add(ModBlocks.MAHOGANY_LEAVES);
+                                entries.add(ModBlocks.MAHOGANY_PLANKS);
+                                entries.add(ModBlocks.MAHOGANY_STAIRS);
+                                entries.add(ModBlocks.MAHOGANY_SLAB);
+                                entries.add(ModBlocks.MAHOGANY_FENCE);
+                                entries.add(ModBlocks.MAHOGANY_FENCE_GATE);
+                                entries.add(ModBlocks.MAHOGANY_BUTTON);
+                                entries.add(ModBlocks.MAHOGANY_PRESSURE_PLATE);
+                                entries.add(ModBlocks.MAHOGANY_TRAPDOOR);
+                                entries.add(ModBlocks.MAHOGANY_DOOR);
                             })).build());
 
     public static final ItemGroup BETTER_PROGRESSION_ITEMS = Registry.register(Registries.ITEM_GROUP, new Identifier(BetterProgression.MOD_ID,
@@ -56,6 +71,10 @@ public class ModItemGroups
                     entries.add(ModItems.AQUALITE_LEGGINGS);
                     entries.add(ModItems.AQUALITE_BOOTS);
                     entries.add(ModItems.FLOWER_CROWN);
+                    entries.add(ModItems.MAHOGANY_SIGN);
+                    entries.add(ModItems.HANGING_MAHOGANY_SIGN);
+                    entries.add(ModItems.MAHOGANY_BOAT);
+                    entries.add(ModItems.MAHOGANY_CHEST_BOAT);
                 })).build());
 
     public static void registerItemGroups()

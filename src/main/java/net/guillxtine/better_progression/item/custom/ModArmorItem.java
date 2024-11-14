@@ -1,7 +1,9 @@
 package net.guillxtine.better_progression.item.custom;
 
 import com.google.common.collect.ImmutableMap;
+import net.guillxtine.better_progression.item.ModItems;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
@@ -18,9 +20,7 @@ public class ModArmorItem extends ArmorItem
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
                     .put(ModArmorMaterials.CRYSTAL, new StatusEffectInstance(StatusEffects.HASTE, 400, 0,
-                            false, false, false))
-                    .put(ModArmorMaterials.FLOWER_CROWN, new StatusEffectInstance(StatusEffects.REGENERATION, 400, 1,
-                            false, true, true)).build();
+                            false, false, false)).build();
 
     public ModArmorItem(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
@@ -28,13 +28,15 @@ public class ModArmorItem extends ArmorItem
 
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
-        if(!world.isClient()) {
-            if(entity instanceof PlayerEntity player && hasFullSuitOfArmorOn(player)) {
+        if(!world.isClient() && entity instanceof PlayerEntity player) {
+            if(hasFullSuitOfArmorOn(player)) {
                 evaluateArmorEffects(player);
             }
-            else if (entity instanceof PlayerEntity player && hasFlowerCrownOn(player))
-            {
-                evaluateArmorEffects(player);
+            if (player.getEquippedStack(EquipmentSlot.HEAD).getItem().equals(ModItems.FLOWER_CROWN)) {
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, -1, 0,
+                        false, false, true));
+            } else {
+                player.removeStatusEffect(StatusEffects.REGENERATION);
             }
         }
 
@@ -49,35 +51,15 @@ public class ModArmorItem extends ArmorItem
             if(hasCorrectArmorOn(mapArmorMaterial, player)) {
                 addStatusEffectForMaterial(player, mapArmorMaterial, mapStatusEffect);
             }
-            else if (hasFlowerCrownOn(player)) {
-                addStatusEffectForMaterial(player, mapArmorMaterial, mapStatusEffect);
-            }
         }
     }
 
     private void addStatusEffectForMaterial(PlayerEntity player, ArmorMaterial mapArmorMaterial, StatusEffectInstance mapStatusEffect) {
         boolean hasPlayerEffect = player.hasStatusEffect(mapStatusEffect.getEffectType());
 
-
-        if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
+        if (hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
             player.addStatusEffect(new StatusEffectInstance(mapStatusEffect));
         }
-        else if (hasFlowerCrownOn(player) && !hasPlayerEffect)
-        {
-            player.addStatusEffect(new StatusEffectInstance(mapStatusEffect));
-        }
-    }
-
-    private boolean hasFlowerCrownOn(PlayerEntity player)
-    {
-        for (ItemStack armorStack: player.getInventory().armor) {
-            if(!(armorStack.getItem() instanceof ArmorItem)) {
-                return false;
-            }
-        }
-
-        ArmorItem helmet = ((ArmorItem)player.getInventory().getArmorStack(3).getItem());
-        return helmet.getMaterial() == ModArmorMaterials.FLOWER_CROWN;
     }
 
     private boolean hasFullSuitOfArmorOn(PlayerEntity player) {

@@ -3,7 +3,6 @@ package net.guillxtine.better_progression.trim;
 import net.guillxtine.better_progression.BetterProgression;
 import net.guillxtine.better_progression.item.ModArmorMaterials;
 import net.guillxtine.better_progression.item.ModItems;
-import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.Item;
 import net.minecraft.item.trim.ArmorTrimMaterial;
 import net.minecraft.registry.Registerable;

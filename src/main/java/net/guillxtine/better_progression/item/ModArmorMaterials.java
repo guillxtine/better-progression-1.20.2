@@ -18,7 +18,7 @@ public enum ModArmorMaterials implements ArmorMaterial
     AQUALITE("aqualite", 40, new int[] { 3, 5, 4, 3 }, 16,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f, 0f,
             () -> Ingredient.ofItems(ModItems.AQUALITE_INGOT)),
-    FLOWER_CROWN("flower_crown", 200, new int[] { 1, 1, 1, 1 }, 19,
+    FLOWER_CROWN("flower_crown", 400, new int[] { 1, 1, 1, 1 }, 19,
             SoundEvents.BLOCK_CHERRY_LEAVES_BREAK, 0f, 0f, null);
 
     private final String name;
